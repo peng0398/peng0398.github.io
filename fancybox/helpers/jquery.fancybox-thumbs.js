@@ -69,7 +69,7 @@
 					return;
 				}
 
-				$("<img />").on("load", function () {
+				$("<img />").load(function () {
 					var width  = this.width,
 						height = this.height,
 						widthRatio, heightRatio, parent;
